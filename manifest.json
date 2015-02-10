@@ -1,0 +1,20 @@
+{
+	"manifest_version" 	: 2,
+	"name" 			: "Bookmark Search",
+	"description" 		: "Easy bookmark navigator",
+	"version" 			: "1",
+	"permissions" 		: [
+		"bookmarks"
+	],
+	"background": {
+		"scripts" : ["background.js"]
+	},
+	"content_scripts" : [{
+    		"matches" : [
+            	"http://*/*",
+            	"https://*/*"
+		],
+     		"css"	: ["bookmark-search.css"],
+    		"js" 	: ["bookmark-search.js"]
+    	}]
+}
