@@ -7,14 +7,14 @@
 		"bookmarks"
 	],
 	"background": {
-		"scripts" : ["background.js"]
+		"scripts" : ["dist/background.js"]
 	},
 	"content_scripts" : [{
     		"matches" : [
             	"http://*/*",
             	"https://*/*"
 		],
-     		"css"	: ["bookmark-search.css"],
-    		"js" 	: ["bookmark-search.js"]
+     		"css"	: ["dist/bookmark-search.css"],
+    		"js" 	: ["dist/bookmark-search.js"]
     	}]
 }
