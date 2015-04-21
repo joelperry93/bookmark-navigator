@@ -1,0 +1,26 @@
+{
+  "name": "bookmark-search",
+  "version": "0.0.9",
+  "description": "A quick bookmark shortcut extension for Chrome",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "~3.8.11",
+    "browserify": "~9.0.8",
+    "babelify": "~6.0.2",
+    "vinyl-source-stream": "~1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joelperry93/bookmark-navigator.git"
+  },
+  "author": "Joel Perry",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/joelperry93/bookmark-navigator/issues"
+  },
+  "homepage": "https://github.com/joelperry93/bookmark-navigator"
+}
